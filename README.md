@@ -1,1 +1,1 @@
-# my-landing-page
+# DigitalCraft Solutions Landing Page Dummy Project
