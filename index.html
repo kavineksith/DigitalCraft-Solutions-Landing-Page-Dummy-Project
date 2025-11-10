@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>DigitalCraft Solutions - Expert Data Processing & Web Development Services</title>
+    <meta name="title" content="DigitalCraft Solutions - Expert Data Processing & Web Development Services">
+    <meta name="description"
+        content="Professional digital solutions provider offering Python automation, web scraping, data processing, landing page design, AI image generation, and logo design services. Transform your business with our expert digital solutions.">
+    <meta name="keywords"
+        content="python automation, web scraping, data processing, excel csv conversion, landing page design, AI image generation, logo design, digital solutions, web development, data analytics, business automation">
+    <meta name="author" content="DigitalCraft Solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+
+    <meta name="theme-color" content="#6366f1">
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#6366f1">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#4f46e5">
+    <meta name="msapplication-TileColor" content="#6366f1">
+    <meta name="msapplication-navbutton-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="DigitalCraft Solutions - Expert Data Processing & Web Development Services">
+    <meta property="og:description"
+        content="Professional digital solutions provider specializing in Python automation, web development, data processing, and AI-powered design services. Boost your business efficiency with our expert solutions.">
+    <meta property="og:image" content="./assets/images/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "DigitalCraft Solutions",
+          "description": "Professional digital solutions provider offering Python automation, web development, data processing, and design services.",
+          "url": "https://digitalcraft-solutions.com",
+          "telephone": "+94703584172",
+          "email": "contact@digitalcraftsolutions.com",
+          "sameAs": [
+            "https://www.linkedin.com/company/digitalcraft-solutions",
+            "https://github.com/digitalcraft-solutions",
+            "https://wa.me/+"
+          ],
+          "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital Solutions Services",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Python Automation & Scripting",
+                  "description": "Custom Python scripts and automation solutions to streamline your business processes."
+                }
+              },
+              {
+                "@type": "Offer", 
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Data Processing & Conversion",
+                  "description": "Expert Excel, CSV, JSON, XML file conversion and data cleaning with Pandas and NumPy."
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Web Scraping Solutions",
+                  "description": "Advanced web scraping using Selenium and Beautiful Soup for data extraction."
+                }
+              }
+            ]
+          }
+        }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header" id="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <a href="#home" class="logo" aria-label="DigitalCraft Solutions Home">
+                <div class="logo-text">Digital<span class="craft">Craft</span></div>
+            </a>
+
+            <ul class="nav-menu" id="navMenu" role="menubar">
+                <li class="nav-item" role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+                <li class="nav-item" role="none"><a href="#services" class="nav-link" role="menuitem">Services</a></li>
+                <li class="nav-item" role="none"><a href="#portfolio" class="nav-link" role="menuitem">Portfolio</a>
+                </li>
+                <li class="nav-item" role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+                <li class="nav-item" role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+            </ul>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="navMenu">
+                <div class="hamburger">
+                    <span></span><span></span><span></span><span></span>
+                </div>
+            </button>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero" id="home">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <div class="hero-subtitle">Digital Solutions Provider</div>
+                    <h1 class="hero-title">
+                        Transform Your Business with <span class="accent">Smart Automation</span>
+                    </h1>
+                    <p class="hero-description">
+                        From Python automation and web scraping to stunning web design and AI-powered solutions,
+                        we deliver cutting-edge digital services that streamline your operations and boost productivity.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-rocket"></i> Start Your Project
+                        </a>
+                        <a href="#services" class="btn btn-secondary">
+                            <i class="fas fa-arrow-down"></i> View Services
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="code-window">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <div class="code-dot red"></div>
+                                <div class="code-dot yellow"></div>
+                                <div class="code-dot green"></div>
+                            </div>
+                        </div>
+                        <div class="code-content">
+                            <div class="code-line"><span class="keyword">import</span> <span
+                                    class="string">pandas</span> <span class="keyword">as</span> <span
+                                    class="string">pd</span></div>
+                            <div class="code-line"><span class="keyword">from</span> <span
+                                    class="string">selenium</span> <span class="keyword">import</span> <span
+                                    class="string">webdriver</span></div>
+                            <div class="code-line"><span class="comment"># Data processing automation</span></div>
+                            <div class="code-line"><span class="keyword">def</span> <span
+                                    class="function">process_data</span>():</div>
+                            <div class="code-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="keyword">return</span> <span
+                                    class="string">"Success!"</span></div>
+                        </div>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">3+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Our Expertise</div>
+                    <h2 class="section-title">Professional Digital Services</h2>
+                    <p class="section-description">
+                        Comprehensive digital solutions designed to automate processes, enhance productivity,
+                        and transform your business operations with cutting-edge technology.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fab fa-python"></i></div>
+                        <div class="service-content">
+                            <h3 class="service-title">Python Automation & Scripting</h3>
+                            <p class="service-description">Custom Python scripts to automate repetitive tasks, process
+                                data, and streamline your workflow with intelligent automation solutions.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Process Automation</li>
+                                <li><i class="fas fa-check"></i> Task Scheduling & APIs</li>
+                                <li><i class="fas fa-check"></i> Custom Scripts</li>
+                            </ul>
+                        </div>
+                        <button class="get-quote" data-service="Python Automation">Get Quote</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-exchange-alt"></i></div>
+                        <div class="service-content">
+                            <h3 class="service-title">File Conversion & Data Processing</h3>
+                            <p class="service-description">Expert Excel, CSV, JSON, XML file conversion and data
+                                cleaning using Pandas and NumPy for seamless data transformation.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Excel to CSV/JSON</li>
+                                <li><i class="fas fa-check"></i> Data Cleaning & Validation</li>
+                                <li><i class="fas fa-check"></i> Format Conversion</li>
+                            </ul>
+                        </div>
+                        <button class="get-quote" data-service="Data Processing">Get Quote</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-spider"></i></div>
+                        <div class="service-content">
+                            <h3 class="service-title">Web Scraping Solutions</h3>
+                            <p class="service-description">Advanced web scraping using Selenium and Beautiful Soup to
+                                extract valuable data from websites efficiently and reliably.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Selenium Automation</li>
+                                <li><i class="fas fa-check"></i> Beautiful Soup Parsing</li>
+                                <li><i class="fas fa-check"></i> Dynamic Content Extraction</li>
+                            </ul>
+                        </div>
+                        <button class="get-quote" data-service="Web Scraping">Get Quote</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="service-content">
+                            <h3 class="service-title">Landing Page Design</h3>
+                            <p class="service-description">Stunning, responsive landing pages that convert visitors into
+                                customers with modern design principles and optimal user experience.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Responsive & SEO Optimized</li>
+                                <li><i class="fas fa-check"></i> Fast Loading Speeds</li>
+                                <li><i class="fas fa-check"></i> Conversion Focused</li>
+                            </ul>
+                        </div>
+                        <button class="get-quote" data-service="Landing Page Design">Get Quote</button>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon"><i class="fas fa-envelope-open-text"></i></div>
+                        <div class="service-content">
+                            <h3 class="service-title">Email Template Design</h3>
+                            <p class="service-description">Professional email templates that engage your audience and drive results with responsive design and compelling layouts.</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Responsive Templates</li>
+                                <li><i class="fas fa-check"></i> Brand Consistency</li>
+                                <li><i class="fas fa-check"></i> Cross-Client Compatible</li>
+                            </ul>
+                        </div>
+                        <button class="get-quote" data-service="Email Template Design">Get Quote</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-subtitle">Our Work</div>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-description">
+                        A selection of our recent projects showcasing our expertise in automation, web development, and
+                        data solutions.
+                    </p>
+                </div>
+
+                <div class="portfolio-filter">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="automation">Automation</button>
+                    <button class="filter-btn" data-filter="data">Data Processing</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                </div>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="automation">
+                        <div class="portfolio-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTk5Mjh8MHwxfGFsbHx8fHx8fHx8fDE3MjQ5OTg2OTN8&ixlib=rb-4.0.3&q=80&w=1080');">
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Automation</div>
+                            <h3 class="portfolio-title">Automated Reporting System</h3>
+                            <p class="portfolio-description">Developed a Python script to automate the generation of
+                                weekly sales reports, saving 20+ hours per month.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">SMTP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTk5Mjh8MHwxfGFsbHx8fHx8fHx8fDE3MjQ5OTg3MTd8&ixlib=rb-4.0.3&q=80&w=1080');">
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Web Development</div>
+                            <h3 class="portfolio-title">E-commerce Landing Page</h3>
+                            <p class="portfolio-description">Designed and built a high-converting, responsive landing
+                                page for a new product launch, resulting in a 25% conversion rate.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="data">
+                        <div class="portfolio-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wzOTk5Mjh8MHwxfGFsbHx8fHx8fHx8fDE3MjQ5OTg3NDR8&ixlib=rb-4.0.3&q=80&w=1080');">
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-category">Data Processing</div>
+                            <h3 class="portfolio-title">Data Migration & Cleaning</h3>
+                            <p class="portfolio-description">Managed the migration of 100,000+ records from legacy Excel
+                                files to a structured JSON format for a new application.</p>
+                            <div class="portfolio-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Pandas</span>
+                                <span class="tech-tag">NumPy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container about-container">
+                <div class="about-content">
+                    <div class="section-subtitle">About Us</div>
+                    <h2 class="section-title">Innovating with Code & Data</h2>
+                    <p class="about-text">
+                        DigitalCraft Solutions was founded with a simple mission: to help businesses leverage the power
+                        of automation and data. We believe that smart technology can unlock incredible efficiency and
+                        growth. Our team is passionate about creating elegant, effective solutions that solve real-world
+                        problems.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-item"><i class="fas fa-cogs"></i><span>Process Automation</span></div>
+                        <div class="skill-item"><i class="fas fa-database"></i><span>Data Management</span></div>
+                        <div class="skill-item"><i class="fas fa-code-branch"></i><span>API Integration</span></div>
+                        <div class="skill-item"><i class="fas fa-paint-brush"></i><span>Web & UI Design</span></div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Let's Connect</a>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-stack">
+                        <!-- <h3 class="stack-title">Our Core Technologies</h3>
+                        <div class="tech-icons">
+                            <i class="fab fa-python tech-icon" title="Python"></i>
+                            <i class="fab fa-js-square tech-icon" title="JavaScript"></i>
+                            <i class="fab fa-html5 tech-icon" title="HTML5"></i>
+                            <i class="fab fa-css3-alt tech-icon" title="CSS3"></i>
+                            <i class="fas fa-file-excel tech-icon" title="Excel/CSV"></i>
+                            <i class="fab fa-git-alt tech-icon" title="Git"></i>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container contact-container">
+                <div class="contact-info">
+                    <div class="section-subtitle">Get in Touch</div>
+                    <h2 class="section-title">Have a Project in Mind?</h2>
+                    <p>We're here to help you bring your ideas to life. Whether you have a question about our services
+                        or need a quote for a project, feel free to reach out. Let's build something amazing together.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Us</h4>
+                                <a href="mailto:contact@digitalcraftsolutions.com">contact@digitalcraftsolutions.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Call or WhatsApp</h4>
+                                <a href="https://wa.me/+94703584172">+94 70 358 4172</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="contactName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="contactName" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactEmail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="contactEmail" placeholder="you@example.com"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage" class="form-label">Message</label>
+                            <textarea class="form-control textarea" id="contactMessage"
+                                placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <a href="#home" class="logo">
+                        <h4 style="color: white; font-size: 24px;">Digital<span class="craft">Craft</span></h4>
+                    </a>
+                    <p>Streamlining business operations with smart automation and cutting-edge digital solutions.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://wa.me/+94703584172" class="social-link" aria-label="WhatsApp"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Core Services</h4>
+                    <ul>
+                        <li><a href="#services">Python Automation</a></li>
+                        <li><a href="#services">Data Processing</a></li>
+                        <li><a href="#services">Web Scraping</a></li>
+                        <li><a href="#services">Landing Pages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:contact@digitalcraftsolutions.com">Email Us</a></li>
+                        <li><a href="https://wa.me/+">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; <span id="current-year"></span> DigitalCraft Solutions. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <button id="closeModal" aria-label="Close modal">&times;</button>
+            <h3>Get a Quote</h3>
+            <p>Ready to start your project? Choose your preferred way to get in touch with us.</p>
+            <div class="modal-buttons">
+                <button class="btn btn-primary" id="callNow"><i class="fas fa-phone"></i> Call Now</button>
+                <button class="btn btn-secondary" id="whatsappNow" style="border-color: #25D366; color: #25D366;"><i
+                        class="fab fa-whatsapp"></i> WhatsApp</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="main.js"></script>
+</body>
+
+
+</html>
